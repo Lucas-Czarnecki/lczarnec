@@ -1,4 +1,4 @@
-baseURL = "lucasczarnecki.ca"
+baseURL = "https://lucasczarnecki.ca"
 languageCode = "en-us"
 title = "Lucas Czarnecki"
 theme = "anatole"
