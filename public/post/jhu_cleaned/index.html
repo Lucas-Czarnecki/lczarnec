@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light"><head>
+    <title> Lucas Czarnecki | Cleaned Covid-19 Data from JHU </title>
+    <meta charset="utf-8"><meta name="generator" content="Hugo 0.74.2" /><meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+    <meta name="description" content="I study political behavior and citizens&#39; relationship with technology.">
+    
+    <link rel="stylesheet" href="http://example.org/css/style.min.73bb9aa29318cf687bf1f90fea2ee039a274417e64b8bacf51f94b27ab2121b0.css" integrity="sha256-c7uaopMYz2h78fkP6i7gOaJ0QX5kuLrPUflLJ6shIbA=" crossorigin="anonymous" type="text/css">
+    <link rel="stylesheet" href="http://example.org/css/custom.css" type="text/css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    
+    <link rel="shortcut icon" href="http://example.org/favicons/favicon.ico" type="image/x-icon">
+    <link rel="apple-touch-icon" sizes="180x180" href="http://example.org/favicons/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="http://example.org/favicons/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="http://example.org/favicons/favicon-16x16.png">
+    <link rel="canonical" href="http://example.org/post/jhu_cleaned/">
+    
+    
+    <script type="text/javascript" src="http://example.org/js/anatole-header.min.c275265a259296f3dd50e8236a77fcbcadb1dbb9597d3045c675dcc2c7c58a93.js" integrity="sha256-wnUmWiWSlvPdUOgjanf8vK2x27lZfTBFxnXcwsfFipM=" crossorigin="anonymous"></script>
+</head><body><div class="sidebar animated fadeInDown">
+    <div class="logo-title">
+      <div class="title">
+        <img src="http://example.org/images/Czarnecki2.png" alt="profile picture">
+        <h3 title=""><a href="/">Lucas Czarnecki</a></h3>
+        <div class="description">
+          <p>I study political behavior and citizens&#39; relationship with technology.</p>
+        </div>
+      </div>
+    </div>
+    <ul class="social-links">
+        
+        <li>
+        <a href="https://github.com/Lucas-Czarnecki" rel="me" aria-label="GitHub">
+          <i class="fa fa-2x fa-github" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="mailto:lczarnec@ucalgary.ca" rel="me" aria-label="e-mail">
+          <i class="fa fa-2x fa-envelope" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+        <li>
+        <a href="https://twitter.com/CZAR__KING" rel="me" aria-label="Twitter">
+          <i class="fa fa-2x fa-twitter" aria-hidden="true"></i>
+        </a>          
+        </li>
+
+        
+    </ul>
+    <div class="footer">
+        <div class="by_farbox">&copy; Lucas Czarnecki 2020 </div>
+      </div>
+    </div>
+</div><div class="main">
+            <div class="page-top animated fadeInDown">
+    <ul class="nav">
+        
+        
+        
+        <li><a  href="/" title="">Home</a></li>
+        
+        
+        <li><a  href="/post/" title="">Posts</a></li>
+        
+        
+        <li><a  href="/data/" title="">Data</a></li>
+        
+        
+        <li><a  href="/about/" title="">About</a></li>
+        
+    </ul>
+    <div class="themeswitcher">
+        <a class="theme-switch" title="Switch Theme">
+            <i class="fa fa-adjust fa-fw" aria-hidden="true"></i>
+        </a>
+    </div>
+</div>
+
+            <div class="autopagerize_page_element">
+                <div class="content">
+<div class="post animated fadeInDown">
+    <div class="post-content">
+
+      <div class="post-title">
+        <h3>Cleaned Covid-19 Data from JHU
+        </h3>
+        
+        <div class="info">
+          <i class="fa fa-sun-o"></i><span class="date">Wed, Jul 22, 2020</span>
+          <i class="fa fa-clock-o"></i><span class="reading-time">3-minute read</span>
+        </div>
+        
+        </div>
+
+    <p><em>This article discusses my GitHub repository <a href="https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE">COVID-19-CLEANED-JHUCSSE</a>, what it is, and why I created it.</em></p>
+<h2 id="background">Background</h2>
+<p>When the Covid-19 pandemic became the new normal for Canadians in March of 2020 I, like countless others, found myself at home feeling uncertain about the future. I occupied my time in those early weeks of the pandemic by examining data on the novel coronavirus in an effort to better understand the virus&rsquo; impact. I spent most of this time reviewing data from Johns Hopkins University&rsquo;s (JHU) <a href="https://www.arcgis.com/apps/opsdashboard/index.html#/bda7594740fd40299423467b48e9ecf6">Covid-19 dashboard</a>, which remains one of the most popular online resources for tracking the global spread of Covid-19.</p>
+<p>JHU&rsquo;s project was admirably ambitious at the time, being among the first to effectively track and aggregate data on Covid-19 from numerous health authorities around the world.</p>
+<p>JHU&rsquo;s repository, however, was not without its limitations. Each morning (or night) I would tweak my script to accommodate whatever changes JHU introduced that day. The frequency with which JHU introduced changes meant that a script which worked one day would be broken the next. As a result, some days I found myself spending more time diagnosing errors than analyzing data.</p>
+<p>In time, I could maintain a daily cleaned version of JHU&rsquo;s data for my analyses. On a whim, I decided to make the cleaned data public on GitHub - hoping it might spare someone else the grind of cleaning it themselves.</p>
+<p>To my surprise, I found some members of GitHub community using my cleaned repository for their projects. Encouraged by this development, I have promoted and maintained the repository ever since.</p>
+<h2 id="download-the-cleaned-data-set">Download the Cleaned Data Set</h2>
+<p>You can find the data on my <a href="https://github.com/Lucas-Czarnecki/COVID-19-CLEANED-JHUCSSE">GitHub repository</a> including the code I use to clean the data. The repository is updated daily. For that reason I recommend creating a local clone to fetch the daily updates.</p>
+<p>For those unfamiliar with GitHub and unsure where to start, I recommend using <a href="https://desktop.github.com">GitHub Desktop</a>.</p>
+<h2 id="more-information-about-the-cleaned-data">More Information About the Cleaned Data</h2>
+<p>The COVID-19-CLEANED-JHUCSSE repository contains cleaned daily reports and time series data from the 2019 Novel Coronavirus COVID-19 (2019-nCoV) Data Repository by Johns Hopkins University for Systems Science and Engineering (JHU CSSE).</p>
+<p>I created this repository for multiple reasons. First, to provide a stable version of the JHU CSSE data repository where variable names would not be subject to change. Second, to provide a data set that maintains a consistent naming convention across all files. Third, to address various inconsistencies in how JHU managed their data; including how dates and time were encoded. Finally, I wanted to provide time series data to analysts in long rather than wide format.</p>
+<p>You will find more detailed information pertaining to the data on my GitHub repository&rsquo;s <code>README.md</code>.</p>
+
+    </div>
+    <div class="post-footer">
+      <div class="info">
+        
+<span class="separator"><a class="category" href="/categories/data/">data</a></span>
+
+        
+    <span class="separator"><a class="tag" href="/tags/github/">GitHub</a><a class="tag" href="/tags/r/">R</a><a class="tag" href="/tags/covid-19/">Covid-19</a></span>
+
+      </div>
+    </div>
+
+    
+           
+    
+</div>
+
+
+                </div>
+            </div>
+        </div>
+</body>
+
+
+
+<script type="text/javascript" src="http://example.org/js/jquery.min.86b1e8f819ee2d9099a783e50b49dff24282545fc40773861f9126b921532e4c.js" integrity="sha256-hrHo&#43;BnuLZCZp4PlC0nf8kKCVF/EB3OGH5EmuSFTLkw=" crossorigin="anonymous"></script>
+
+
+
+
+<script type="text/javascript" src="http://example.org/js/bundle.min.0f9c74cb78f13d1f15f33daff4037c70354f98acfbb97a6f61708966675c3cae.js" integrity="sha256-D5x0y3jxPR8V8z2v9AN8cDVPmKz7uXpvYXCJZmdcPK4=" crossorigin="anonymous"></script>
+
+<script type="text/javascript" src="http://example.org/js/medium-zoom.min.92f21c856129f84aeb719459b3e6ac621a3032fd7b180a18c04e1d12083f8aba.js" integrity="sha256-kvIchWEp&#43;ErrcZRZs&#43;asYhowMv17GAoYwE4dEgg/iro=" crossorigin="anonymous"></script></html></body>
+
+</html>

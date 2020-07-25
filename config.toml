@@ -1,0 +1,61 @@
+baseURL = "lucasczarnecki.ca"
+languageCode = "en-us"
+title = "Lucas Czarnecki"
+theme = "anatole"
+summarylength = 10
+enableEmoji = true
+
+[params]
+title = "Lucas Czarnecki"
+author = "Lucas Czarnecki"
+description = "I study political behavior and citizens' relationship with technology."
+profilePicture = "images/Czarnecki2.png"
+keywords = "social science"
+favicon = "favicons/"
+customCss = ["css/custom.css"]
+mainSections = ["post"]
+
+## Professional and Social Links
+
+[[params.socialIcons]]
+icon = "fa-github"
+title = "GitHub"
+url = "https://github.com/Lucas-Czarnecki"
+
+[[params.socialIcons]]
+icon = "fa-envelope"
+title = "e-mail"
+url = "mailto:lczarnec@ucalgary.ca"
+
+[[params.socialIcons]]
+icon = "fa-twitter"
+title = "Twitter"
+url = "https://twitter.com/"
+
+## Menu items
+
+[menu]
+
+  [[menu.main]]
+  name = "Home"
+  identifier = "home"
+  weight = 100
+  url = "/"
+
+  [[menu.main]]
+  name = "Posts"
+  weight = 200
+  identifier = "posts"
+  url = "/post/"
+
+  [[menu.main]]
+  name = "Data"
+  weight = 300
+  identifier = "data"
+  url = "/data/"
+
+  [[menu.main]]
+  name = "About"
+  weight = 400
+  identifier = "about"
+  url = "/about/"

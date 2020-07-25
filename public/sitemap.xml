@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>http://example.org/categories/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/jhu_cleaned/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/covid-19/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/data/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/github/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/r/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/tags/</loc>
+    <lastmod>2020-07-22T15:46:52-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/categories/general/</loc>
+    <lastmod>2020-07-22T14:26:37-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/post/welcome/</loc>
+    <lastmod>2020-07-22T14:26:37-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/data/</loc>
+    <lastmod>2020-06-09T21:07:26-06:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>http://example.org/about/</loc>
+    <lastmod>2020-06-09T21:06:32-06:00</lastmod>
+  </url>
+  
+</urlset>
