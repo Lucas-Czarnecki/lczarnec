@@ -12,7 +12,7 @@ description = "I study political behavior and citizens' relationship with techno
 profilePicture = "images/Czarnecki2.png"
 keywords = "social science"
 favicon = "favicons/"
-customCss = []
+customCss = ["css/custom.css"]
 mainSections = ["post"]
 
 ## Professional and Social Links
