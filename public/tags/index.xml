@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Tags on Lucas Czarnecki</title>
+    <link>lucasczarnecki.ca/tags/</link>
+    <description>Recent content in Tags on Lucas Czarnecki</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 22 Jul 2020 15:46:52 -0600</lastBuildDate>
+    
+	<atom:link href="lucasczarnecki.ca/tags/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Covid-19</title>
+      <link>lucasczarnecki.ca/tags/covid-19/</link>
+      <pubDate>Wed, 22 Jul 2020 15:46:52 -0600</pubDate>
+      
+      <guid>lucasczarnecki.ca/tags/covid-19/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>GitHub</title>
+      <link>lucasczarnecki.ca/tags/github/</link>
+      <pubDate>Wed, 22 Jul 2020 15:46:52 -0600</pubDate>
+      
+      <guid>lucasczarnecki.ca/tags/github/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>R</title>
+      <link>lucasczarnecki.ca/tags/r/</link>
+      <pubDate>Wed, 22 Jul 2020 15:46:52 -0600</pubDate>
+      
+      <guid>lucasczarnecki.ca/tags/r/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
