@@ -23,6 +23,11 @@ title = "GitHub"
 url = "https://github.com/Lucas-Czarnecki"
 
 [[params.socialIcons]]
+icon = "fa-linkedin"
+title = "linkedin"
+url = "https://www.linkedin.com/in/lucas-czarnecki-b229a886/"
+
+[[params.socialIcons]]
 icon = "fa-envelope"
 title = "e-mail"
 url = "mailto:lczarnec@ucalgary.ca"
