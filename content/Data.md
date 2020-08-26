@@ -8,6 +8,13 @@ A place for all my data for your downloading pleasure.
 
 ---
 
+###  Facebook Election Data
+#### The 2015 Canadian Federal Election on Facebook
+
+This repository contains Facebook user data from the 2015 Canadian general election. Data consists of federal party leaders’ campaign messages (N = 1,711) and the responses to those messages from everyday Facebook users (n = 92,516). You can find the data [HERE](https://github.com/Lucas-Czarnecki/Facebook_Canada2015).
+
+---
+
 ### COVID-19 
 #### Cleaned data on COVID-19 with R-users in mind
 
