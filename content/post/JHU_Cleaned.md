@@ -1,5 +1,5 @@
 ---
-title: "Cleaned Covid-19 Data from JHU"
+title: "Cleaned Covid-19 Data from Johns Hopkins (DATA)"
 date: 2020-07-22T15:46:52-06:00
 Description: "Cleaned Covid-19 data from JHU"
 Tags: ["GitHub", "R", "Covid-19"]
