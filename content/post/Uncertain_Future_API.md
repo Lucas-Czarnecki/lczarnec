@@ -1,5 +1,5 @@
 ---
-title: "The Uncertain Future of Research using Social Media Data"
+title: "The Uncertain Future of API Research"
 date: 2020-08-26T15:59:36-06:00
 Description: "Describes the current state of social media research"
 Tags: ["Facebook", "Twitter", "API", "Social Media", "Research"]
