@@ -1,6 +1,6 @@
 ---
-title: "2015 Canadian General Election on Facebook (DATA)"
-date: 2020-08-29T19:16:54-06:00
+title: "The 2015 Canadian Federal Election on Facebook (DATA)"
+date: 2020-08-30T14:16:54-06:00
 Description: ""
 Tags: ["GitHub", "R", "Facebook", "Canada", "Elections"]
 Categories: ["data"]
@@ -12,26 +12,48 @@ Draft: true
 
 ## Introduction 
 
-I recently, in an effort to move my past and current projects onto GitHub, created a new repository called [Facebook_2015](https://github.com/Lucas-Czarnecki/Facebook_Canada2015). This repository contains data I collected for my masters thesis that I believe will be of general interest to social scientists. The scheer size of this repository lends itself to answer many research questions.
+I have created a new repository called [Facebook_2015](https://github.com/Lucas-Czarnecki/Facebook_Canada2015) in a recent effort to move my past and current projects onto GitHub. This repository contains data I collected for my masters thesis that I believe will be of general interest to social scientists.
 
-Note that this blog only offers a quick summary of the data. For more detailed information please see the repository's README file.
+Note that this blog post only offers a quick summary of the data. For more detailed information, please see the repository's [main page](https://github.com/Lucas-Czarnecki/Facebook_Canada2015).
 
-## The 2015 Election Campaign
+## Context: The 2015 Election Campaign
 
-The repository contains Facebook user data from the 2015 Canadian general election. The campaign was the longest in modern Canadian history at 78 days and resulted in one the highest voter turnout in Canada since the 1990s. The campaign touched on multiple high profile issues including the Syrian migration crisis, the controversial niqab ban, the senate expenses scandal, and heated debates about the Canadian economy. Overall, the issues, salience, and length of the campaign make it one of the most compelling elections to study in recent memory.
+The repository contains Facebook user data from the 2015 Canadian general election, which was the longest in modern Canadian history at 78 days and resulted in one the highest voter turnouts in Canada since the 1990s. The campaign touched on multiple issues that were salient to voters at the time. Issues include the Syrian migration crisis, the controversial proposal to ban niqabs during citzenship swearing-in ceremonies, the senate expenses scandal, and heated debates concerning the health of the Canadian economy. Overall, the issues, their public salience, and the length of the campaign, makes it one of the most interesting electoral case studies in recent memory.
 
-## What's Inside
+## The Data: What's Inside?
 
-The data consists of federal party leaders’ (i.e., Stephen Harper, Justin Trudeau, and Tom Mulcair) campaign messages (N = 1,711) and the responses to those messages from everyday Facebook users (n = 92,516). Data range from August 4th to October 19, 2015; the duration of the campaign on Facebook. 
+The data consists of three federal party leaders’ campaign messages (N = 1,711); more specifically, these are Facebook posts published from Stephen Harper, Justin Trudeau, and Tom Mulcair's official public Facebook pages. The data also includes the responses to these messages from everyday Facebook users (n = 92,516). Data range from August 4th to October 19, 2015; the duration of the campaign on Facebook. 
 
- The scripts I use to clean and organize the data are also included. 
+ The scripts I used to clean and organize the data are also included on GitHub. You will find more information pertaining to how the data were wrangled on the repository's [main page](https://github.com/Lucas-Czarnecki/Facebook_Canada2015) and in the [raw data folder](https://github.com/Lucas-Czarnecki/Facebook_Canada2015/tree/master/data/raw). 
 
 The repository contains both raw as well as cleaned datasets. These are separated into their respective folders; [dataset](https://github.com/Lucas-Czarnecki/Facebook_Canada2015/tree/master/data/datasets) and [raw](https://github.com/Lucas-Czarnecki/Facebook_Canada2015/tree/master/data/raw).  
 
 ## How the Cleaned Data are Organized
 
-The cleaned data are 
+The cleaned data are presented as three relational data sets. Each data set has unique attributes that makes it suitable for different kinds of analyses and research questions. Below is a brief description of each data set and a few broad suggestions for the kinds of research questions you might ask.
+
+### <b> 1.  The Facebook Pages Dataset </b>
+
+This data set (N = 1,711) contains **structured information** pertaining to every campaign message (i.e., Facebook post) published from the three aforementioned party leaders' Facebook pages. Structured data includes metrics that record how much engagement Facebook posts received; more specifically, fields that record the total number of likes, comments, and shares that each post recieved throughout the campaign. 
+
+This data set will be useful to researchers interested in gauging campaign performances on Facebook. For example, the data can be analyzed to demonstrate how successful candidates' Facebook campaigns were based on overall user engagement. Analyses can also, thanks to timestamps that record when each post was published, observe engagement over time to see how candidates' performances changed throughout the course of the campaign. 
+
+### <b> 2. The Campaign Messages Dataset </b>
+
+The second data set contains the text-based portions of the Facebook posts (n = 1,530) found in the Facebook Pages Dataset. Note then that posts, which did not include text-based messages (e.g., a photo from the campaign trail without accompanying text) are not recorded here. The data set also contains many of the same structured fields found in the first data set; including timestamps and metrics for measuring Facebook user engagement.
+
+This data set is relevant to researchers who want to examine the kinds of words and language used in party leaders' campaign messages. The most valuable data here are the text-based messages, which will be of interest to researchers who want to study campaign messaging generally or those wishing to conduct a **text analysis** on a political corpus. 
+
+### 3. <b> The Facebook Users Dataset </b>
+
+The final data set is a collection of over 200,000 Facebook user responses to party leaders' campaign messages during the 2015 campaign. These responses come from more than 92,000 unique Facebook users of whom over 26,000 have identifiable partisan preferences. The data include the text-based portions of users' comments, which together create a very large corpus suitable for text analysis. The data set also contains many of the same fields as the two previous data sets.
+
+The scheer size of this data suggests to me that it will be of interest to many reasearchers for answering very different kinds of research questions. The most obvious kinds of questions to me involve campaign effects and partisanship. Because of the relational relationship between data sets, researchers can, for example, identify the effects that exposure to campaign messaging on Facebook has on users' emotions or political preferences. Indeed, that was what I used these data for when writing my thesis. 
+
+One area that I think could use more scholarly attention is online partisanship. For example, does repeated exposure to campaign messaging on Facebook increase partisanship? This kind of data I think can help answer these kinds of timely questions.
 
 ## Download the Data
 
-You can clone or download the data on [GitHub]().
+You can download the data on [GitHub](https://github.com/Lucas-Czarnecki/Facebook_Canada2015).
+
+If you use the data, please cite either the repository's [DOI](https://zenodo.org/record/4001164#.X0wmg--SlPY) or my [thesis](https://prism.ucalgary.ca/handle/1880/110936); which ever is more appropriate to your project. 
