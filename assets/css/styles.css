@@ -200,7 +200,7 @@ a:hover {
 }
 .page-top .themeswitcher:hover {
   font-size: 1.5em;
-  color: #bd1dbd !important;
+  color: #bd1dbd;
 }
 .page-top .information {
   float: right;
@@ -333,6 +333,7 @@ a:hover {
 }
 .post .post-title a:hover {
   text-decoration: underline;
+  color: #bd1dbd;
 }
 .post .post-content a {
   text-decoration: none;
@@ -341,7 +342,7 @@ a:hover {
   color: #bd1dbd;
 }
 .post .post-content a:hover {
-  color: #4997fc;
+  color: #bd1dbd;
 }
 .post .post-content h2 {
   font-size: 22px;
@@ -521,7 +522,7 @@ a:hover {
   color: #8F8F8F;
 }
 .list-with-title .listing .listing-post a:hover {
-  color: #2660ab;
+  color: #bd1dbd;
 }
 
 /* share */
