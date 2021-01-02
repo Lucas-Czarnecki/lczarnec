@@ -5,7 +5,7 @@ Description: "GitHub Repository of Canadian Federal Election Results"
 Tags: ["GitHub", "R", "Federal", "Canada", "Elections"]
 Categories: ["data"]
 DisableComments: false
-Draft: true
+Draft: false
 ---
 
 *This post describes a GitHub repository I created to organize elections data from the Canadian Library of Parliament.*

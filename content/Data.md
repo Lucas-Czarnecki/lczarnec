@@ -8,6 +8,13 @@ A place for all my data for your downloading pleasure.
 
 ---
 
+###  Canadian Federal Elections from 1867 to the Present
+#### Canadian Federal Election Results from the Canadian Library of Parliament
+
+This repository consists of candidate-level federal election results from the Canadian Library of Parliament in formats that are easy for researchers, and other interested parties, to access and analyze. You can find the data [HERE](https://github.com/Lucas-Czarnecki/Canadian-Federal-Elections).
+
+---
+
 ###  Facebook Election Data
 #### The 2015 Canadian Federal Election on Facebook
 
