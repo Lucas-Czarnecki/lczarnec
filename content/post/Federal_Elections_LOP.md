@@ -1,6 +1,6 @@
 ---
 title: "Canadian Federal Elections from 1867 to the Present (DATA)"
-date: 2020-08-30T14:16:54-06:00
+date: 2021-01-02T14:16:54-06:00
 Description: "GitHub Repository of Canadian Federal Election Results"
 Tags: ["GitHub", "R", "Federal", "Canada", "Elections"]
 Categories: ["data"]
