@@ -30,7 +30,7 @@ url = "https://www.linkedin.com/in/lucas-czarnecki-b229a886/"
 [[params.socialIcons]]
 icon = "fa-envelope"
 title = "e-mail"
-url = "mailto:lczarnec@ucalgary.ca"
+url = "mailto:lczarnec@alumni.ucalgary.ca"
 
 [[params.socialIcons]]
 icon = "fa-twitter"

@@ -4,7 +4,7 @@ date: 2020-06-09T21:06:32-06:00
 draft: false
 ---
 
-I'm a quantitative social scientist with a background in political psychology looking to improve how governments communicate and disseminate data with the public. I have experience inside and outside of academia. I started programming for a masters thesis that examined campaign effects on Facebook - I haven't stopped coding since.
+I am a social and data science researcher with a background in political psychology looking to improve how public institutions communicate and disseminate data with the public. I have experience inside and outside of academia. I started programming for a master's thesis that examined campaign effects on Facebook and haven't stopped coding since.
 
 <br>
 
@@ -12,4 +12,4 @@ I'm a quantitative social scientist with a background in political psychology lo
 
 ---
 <br><br>
-For all inquiries 📫: lczarnec@ucalgary.ca 
+For all inquiries 📫: lczarnec@alumni.ucalgary.ca 
